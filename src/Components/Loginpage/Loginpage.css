@@ -1,0 +1,162 @@
+
+
+*{
+    margin :0 auto;
+    box-sizing: 0;
+    
+}
+body{
+    background-color: rgb(68, 25, 109);
+}
+
+.image1{
+width: 400px;
+height: 300px;
+padding-top: 50px;
+}
+
+.componentContainer{
+    height:70%;
+    background-color: rgb(245, 235, 235);
+    width:40%;
+    border-radius:20px;
+}
+
+.background{
+ height:100vh;
+ display:flex;
+ align-items: center;
+ justify-content: center;
+
+}
+.button_container{
+    display:flex;
+    
+    
+}
+.spanMessage{
+    color:red;
+    font-weight: bold;
+}
+#forgetpass{
+    font-weight: bold;
+    color:rgb(58, 155, 228);
+    padding-top: 20px;
+    float:left;
+    padding-left:75px;
+}
+
+.textContainer{
+    color:white;
+    font-size:100px;
+}
+.signin button{
+    border-bottom: 0.05;
+}
+
+form{
+    display:block;
+    padding-top:20px;
+    
+}
+input{
+    width:80%;
+    height:50px;
+    border-bottom-color: rgb(33, 135, 194);
+    border-bottom-width: 0.15rem;
+    background-color: rgb(245, 235, 235);
+}
+.signup_btn{
+    width:80%;
+    color:aliceblue;
+    font-size: larger;
+    /* background-color: rgb(103, 103, 223); */
+    font-weight: bold;
+    background-image: linear-gradient(to right, #4f989f 0%, #136586 51%, #2d8fc7 100%);
+    border-radius: 20px;
+    height:70px;
+    
+}
+
+.button_container #btn1{
+    color:white;
+    width:50%;
+    height:55px;
+    background-image: linear-gradient(to right, #4f989f 0%, #136586 51%, #2d8fc7 100%);
+    /* border-radius:20px; */
+    border-top-left-radius: 20px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.button_container #btn2{
+    color:white;
+    width:50%;
+    background-image: linear-gradient(to right, #4f989f 0%, #136586 51%, #2d8fc7 100%);
+    /* border-radius:20px; */
+    border-top-right-radius: 20px;
+    font-weight: bold;
+    font-size: larger;
+}
+.button_container #btn1:hover{
+    color:grey;
+}
+.button_container #btn2:hover{
+    color:grey;
+}
+
+.signin label{
+    font-weight: bold;
+    float:left;
+    padding-left:75px;
+    font-size: larger;
+    
+}
+
+.form_caption{
+    font-weight: bold;
+    padding-top:30px;
+    font-size: larger;
+    align-items: center;
+}
+.textContainer{
+    font-size: 50px;
+}
+/* .message1 h1{
+    font-weight:bold;
+    font-size: 30px;
+
+}
+
+.message2 h1{
+    font-weight:bold;
+    font-size: 30px;
+
+} */
+h2{
+    font-weight:bold;
+    font-size:larger;
+}
+/* .modals{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 75px;
+   
+} */
+.para{
+    display:flex;
+    padding-left: 75px;
+}
+
+p {
+    align-self:flex-start ;
+    
+    font-size: larger;
+}
+
+/* .modal{
+    height:300px;
+    width:300px;
+} */
+
